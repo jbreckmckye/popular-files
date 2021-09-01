@@ -1,0 +1,19 @@
+{
+  "name": "popular-files",
+  "version": "1.0.0",
+  "description": "Tool to find the most imported (JS/TS)/X files in a given project",
+  "main": "index.js",
+  "author": "Jimmy Breck-McKye <jimmy@breck-mckye.com>",
+  "license": "AGPL-3.0-or-later",
+  "bin": {
+    "popular-files": "./cli.sh"
+  },
+  "dependencies": {
+    "madge": "5.0.1",
+    "ts-node": "10.2.1"
+  },
+  "devDependencies": {
+    "@types/madge": "^5.0.0",
+    "@types/node": "^16.7.10"
+  }
+}
